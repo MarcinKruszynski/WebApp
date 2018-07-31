@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace WebApp.Pages
+namespace WebApp2.Pages
 {
     public class ContactModel : PageModel
     {
@@ -12,7 +12,7 @@ namespace WebApp.Pages
 
         public void OnGet()
         {
-            Message = "Tirana, Albania";
+            Message = "Your contact page.";
         }
     }
 }

@@ -473,7 +473,7 @@
             "displayName": "Git Repository URL",
             "required": true,
             "description": "The URL of the repository with your application source code.",
-            "value": "https://github.com/MarcinKruszynski/WebApp.git"
+            "value": "https://github.com/marcinkruszynski/webapp.git"
         },
         {
             "name": "SOURCE_REPOSITORY_REF",

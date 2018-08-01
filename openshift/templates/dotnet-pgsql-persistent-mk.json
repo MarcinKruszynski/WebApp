@@ -2,7 +2,7 @@
     "kind": "Template",
     "apiVersion": "v1",
     "metadata": {
-        "name": "dotnet-pgsql-persistent",
+        "name": "dotnet-pgsql-persistent-mk",
         "annotations": {
             "openshift.io/display-name": ".NET Core + PostgreSQL (Persistent)",
             "description": "An example .NET Core application with a PostgreSQL database. For more information about using this template, including OpenShift considerations, see https://github.com/redhat-developer/s2i-dotnetcore.",
@@ -15,7 +15,7 @@
     },
     "message": "The following service(s) have been created in your project: ${NAME}, ${DATABASE_SERVICE_NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/redhat-developer/s2i-dotnetcore.",
     "labels": {
-        "template": "dotnet-pgsql-persistent"
+        "template": "dotnet-pgsql-persistent-mk"
     },
     "objects": [
         {
@@ -188,7 +188,7 @@
                         "imageChangeParams": {
                             "automatic": true,
                             "containerNames": [
-                                "dotnet-pgsql-persistent"
+                                "dotnet-pgsql-persistent-mk"
                             ],
                             "from": {
                                 "kind": "ImageStreamTag",
@@ -214,7 +214,7 @@
                     "spec": {
                         "containers": [
                             {
-                                "name": "dotnet-pgsql-persistent",
+                                "name": "dotnet-pgsql-persistent-mk",
                                 "image": " ",
                                 "ports": [
                                     {

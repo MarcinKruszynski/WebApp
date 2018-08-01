@@ -431,7 +431,7 @@
             "displayName": "Name",
             "description": "The name assigned to all of the frontend objects defined in this template.",
             "required": true,
-            "value": "musicstore"
+            "value": "webapp2"
         },
         {
             "name": "MEMORY_LIMIT",
@@ -564,7 +564,7 @@
             "name": "DATABASE_NAME",
             "required": true,
             "displayName": "Database Name",
-            "value": "musicstore"
+            "value": "postgres"
         },
         {
             "name": "POSTGRESQL_MAX_CONNECTIONS",

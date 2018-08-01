@@ -223,7 +223,7 @@
                                 ],
                                 "env": [
                                     {
-                                        "name": "ConnectionStrings__DefaultConnection",
+                                        "name": "ConnectionString",
                                         "valueFrom": {
                                             "secretKeyRef": {
                                                 "name": "${NAME}",
